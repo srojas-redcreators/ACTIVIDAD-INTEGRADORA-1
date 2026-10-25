@@ -2,7 +2,7 @@
     MENU DE NAVEGACION 
 ========================================== */
 
-nav {
+nav{
     background-color: #183b56;
     padding: 15px 30px;
 
@@ -11,7 +11,7 @@ nav {
     align-items: center;
 }
 
-nav ul {
+nav ul{
     list-style: none;
 
     display: flex;
@@ -21,7 +21,7 @@ nav ul {
     padding: 10px;
 }
 
-nav a {
+nav a{
     color: white;
     text-decoration: none;
     font-size: 18px;
@@ -30,7 +30,84 @@ nav a {
     border-radius: 10px;
 }
 
-nav a:hover {
+nav a:hover{
     background-color: #dceaf5;
     color: #183b56;
+}
+
+
+/* ==========================================
+    SECCION SOBRE MI
+========================================== */
+
+.sobremi{
+    padding: 20px;
+    margin: 20px;
+}
+
+.sobremi h2{
+    color: #1e4f73;
+    font-size: 30px;
+}
+
+.sobremi p{
+    color: #526475;
+    font-size: 20px;
+}
+
+
+/* ==========================================
+    SECCION HABILIDADES
+========================================== */
+
+.habilidades-seccion{
+    padding: 20px;
+    margin: 20px;
+}
+
+.habilidades-seccion h2{
+    color: #1e4f73;
+    font-size: 30px;
+}
+
+.habilidades{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+/* ==========================================
+    TARJETAS
+========================================== */
+
+.tarjeta{
+    box-sizing: border-box;
+    width: 250px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #ffffff;
+    border: 2px solid #b8cddd;
+    border-radius: 10px;
+}
+
+.tarjeta h3{
+    color: #1e4f73;
+}
+
+.tarjeta p{
+    color: #526475;
+    font-size: 18px;
+}
+
+
+/* ==========================================
+    FOTO
+========================================== */
+
+img{
+    width: 20px;
+    border-radius: 20%;
+    object-fit: cover;
+    transform: scale(1.2);
 }
