@@ -111,3 +111,88 @@ img{
     object-fit: cover;
     transform: scale(1.2);
 }
+
+
+/* ==========================================
+    SECCION PROYECTOS
+========================================== */
+
+.proyectos{
+    padding: 20px;
+    margin: 20px;
+}
+
+.proyectos h2{
+    color: #1e4f73;
+    font-size: 30px;
+}
+
+.lista-proyectos{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.lista-proyectos img{
+    width: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px black;
+}
+
+/* ==========================================
+    SECCION CONTACTO
+========================================== */
+
+.contacto {
+    padding: 20px;
+    margin: 20px;
+}
+
+.contacto h2 {
+    color: #1e4f73;
+    font-size: 30px;
+}
+
+.contacto p {
+    color: #526475;
+    font-size: 20px;
+}
+
+.contacto form {
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #b8cddd;
+    border-radius: 10px;
+}
+
+.contacto label {
+    display: block;
+    margin: 10px;
+}
+
+.contacto input {
+    display: block;
+    padding: 10px;
+    margin: 10px;
+}
+
+.contacto textarea {
+    display: block;
+    padding: 10px;
+    margin: 10px;
+}
+
+.contacto button {
+    background-color: #1e4f73;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.contacto button:hover {
+    background-color: #337d78;
+}
