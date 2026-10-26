@@ -1,4 +1,52 @@
 /* ==========================================
+    VARIABLES Y ESTILOS GENERALES
+========================================== */
+
+:root {
+    --colorprimario: #1e4f73;
+    --colorsecundario: #337d78;
+    --colortexto: #243746;
+    --colorfondo: #f1f5f9;
+    --fuente: Arial, sans-serif;
+}
+
+body{
+    background-color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: #ffffff;
+}
+
+header h1 {
+    color: var(--colorprimario);
+    padding: 20px;
+    margin: 0;
+}
+
+header p {
+    color: var(--colortexto);
+    font-size: 18px;
+}
+
+.inicio {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.inicio h2 {
+    color: var(--colorprimario);
+    font-size: 30px;
+}
+
+.inicio p {
+    color: #526475;
+    font-size: 20px;
+}
+/* ==========================================
     MENU DE NAVEGACION 
 ========================================== */
 
@@ -89,6 +137,12 @@ nav a:hover{
     background-color: #ffffff;
     border: 2px solid #b8cddd;
     border-radius: 10px;
+    box-shadow: 1px 4px 8px #cccccc;
+    transition: 0.3s;
+}
+
+.tarjeta:hover {
+    transform: scale(1.03);
 }
 
 .tarjeta h3{
@@ -106,7 +160,7 @@ nav a:hover{
 ========================================== */
 
 img{
-    width: 20px;
+    width: 200px;
     border-radius: 20%;
     object-fit: cover;
     transform: scale(1.2);
@@ -128,13 +182,13 @@ img{
 }
 
 .lista-proyectos{
-    display: flex;
+    display:flex;
     gap: 20px;
     flex-wrap: wrap;
 }
 
 .lista-proyectos img{
-    width: 100px;
+    width: 100x;
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 4px 10px black;
@@ -196,3 +250,25 @@ img{
 .contacto button:hover {
     background-color: #337d78;
 }
+
+/* ==========================================
+    PIE DE PAGINA
+========================================== */
+
+footer {
+    background-color: #183b56;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #b8cddd;
+}
+
